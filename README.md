@@ -75,11 +75,11 @@ Avant de commencer, assurez-vous d'avoir les outils suivants installés :
 
    - **Utilisateur 1 :**
      - Email : `john@example.com`
-     - Mot de passe : `password123`
+     - Mot de passe : `password`
    
    - **Utilisateur 2 :**
      - Email : `jane@example.com`
-     - Mot de passe : `password123`
+     - Mot de passe : `password`
 
    Exécutez le seeder pour les utilisateurs :
 
@@ -149,7 +149,7 @@ Pour tester l'API, vous pouvez utiliser **Postman** ou **Insomnia**. Voici quelq
    ```json
    {
      "email": "john@example.com",
-     "password": "password123"
+     "password": "password"
    }
    ```
 
