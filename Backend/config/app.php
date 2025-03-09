@@ -195,6 +195,9 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        Laravel\Passport\PassportServiceProvider::class,
+        App\User\Providers\UserServiceProvider::class,
+        App\Transaction\Providers\TransactionServiceProvider::class,
     ],
 
     /*
