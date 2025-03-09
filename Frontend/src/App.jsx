@@ -8,6 +8,7 @@ function App() {
   return (
     <Router>
       <Routes>
+        {/*page par defaut*/}
         <Route path="/" element={<Auth />} />
 
         <Route path="/transactions" element={<Transactions />} />
